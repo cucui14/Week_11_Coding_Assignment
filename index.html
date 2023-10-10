@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My API Project</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+  </head>
+  <body>
+    <header></header>
+    <section>
+      <h1 class="text-center">Tic Tac Toe</h1>
+      <div class="text-center fw-bold fs-2" id="winningMessage"></div>
+      <div class="game-container text-center">
+        <div class="cell" data-index></div>
+        <div class="cell" data-index></div>
+        <div class="cell" data-index></div>
+        <div class="cell" data-index></div>
+        <div class="cell" data-index></div>
+        <div class="cell" data-index></div>
+        <div class="cell" data-index></div>
+        <div class="cell" data-index></div>
+        <div class="cell" data-index></div>
+      </div>
+      <div class="d-flex justify-content-around">
+        <button
+          class="btn my-5 rounded border-black bg-success text-white"
+          id="reset"
+        >
+          Start Game
+        </button>
+      </div>
+    </section>
+    <footer></footer>
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

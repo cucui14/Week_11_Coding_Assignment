@@ -1,0 +1,25 @@
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 300px;
+    margin: auto;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #000;
+    border: 1px solid #000;
+    cursor: pointer;
+    font-size: 60px;
+}
+
+.x-class::before {
+    content: "X";
+}
+
+.o-class::before {
+    content: "O";
+}

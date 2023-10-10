@@ -1,0 +1,23 @@
+{
+  "name": "week_11_coding_assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cucui14/Week_11_Coding_Assignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cucui14/Week_11_Coding_Assignment/issues"
+  },
+  "homepage": "https://github.com/cucui14/Week_11_Coding_Assignment#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "jquery": "^3.7.1"
+  }
+}

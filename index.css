@@ -1,3 +1,4 @@
+/* Creates a grid of 3 columns and width of 300px and auto margin */
 .game-container {
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -5,6 +6,7 @@
     margin: auto;
 }
 
+/* Adds flex to each cell, centers the content, adds width and height of 100px for each cell, adds a box shadow in each cell, adds a border, adds font size of 60px and a pointer when the cursor is over the cells.  */
 .cell {
     display: flex;
     justify-content: center;
@@ -16,10 +18,12 @@
     font-size: 60px;
 }
 
+/* adds content of X as a string */
 .x-class::before {
     content: "X";
 }
 
+/* adds content of O as a string */
 .o-class::before {
     content: "O";
 }
